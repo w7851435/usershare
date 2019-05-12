@@ -8,13 +8,10 @@ console.log(i+":"+arrCookie[i])
        document.cookie=arrCookie[i];
  }
 
+chrome.extension.onMessage.addListener(
+	function(request, sender, sendResponse) {
+		alert("前端/后端/Popup收到");
+		sendResponse("popup返回值");
+	}
+);
 
-chrome.tabs.query({active: true, currentWindow: true}, function(tabs){  
-	chrome.tabs.sendMessage(tabs[0].id, {message:"calculate"}, function(response) {
-		if(typeof response !='undefined'){
-			alert(response);
-		}else{
-			alert("response为空=>"+response);
-		}
-	});//end  sendMessage   
-}); //end query
