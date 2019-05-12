@@ -1,1 +1,1 @@
-callbackFunction("cookietset")
+console.log("cookietset")
