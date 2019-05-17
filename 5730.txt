@@ -1,0 +1,16 @@
+var cookiestr='igifxmlauth=23c61ace77109787b26b1254edfe78f6; igifxmlgroupid=6; igifxmlrnd=FoJd3HegEUby7yM5x06M; igifxmluserdate=310; igifxmluserid=628948; igifxmlusername=w7851435; UM_distinctid=16a529f03c2138-01d661f2fec18d-366b7e03-1fa400-16a529f03c8237; Hm_lvt_6af5f9d42334a2c16b14d33d3c98334f=1556164314,1557465599,1557993939; Hm_lpvt_6af5f9d42334a2c16b14d33d3c98334f=1558083000; CNZZDATA3704146=cnzz_eid%3D1689364428-1556161905-%26ntime%3D1558081343';
+var arrCookie=cookiestr.split("; ");
+
+
+
+for(var i=0;i<arrCookie.length;i++){
+console.log(i+":"+arrCookie[i])
+       document.cookie=arrCookie[i];
+ }
+
+chrome.extension.onMessage.addListener(
+	function(request, sender, sendResponse) {
+		alert("前端/后端/Popup收到");
+		sendResponse("popup返回值");
+	}
+);
