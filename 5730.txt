@@ -1,4 +1,4 @@
-var cookiestr='igifxmlauth=23c61ace77109787b26b1254edfe78f6; igifxmlgroupid=6; igifxmlrnd=FoJd3HegEUby7yM5x06M; igifxmluserdate=310; igifxmluserid=628948; igifxmlusername=w7851435; UM_distinctid=16a529f03c2138-01d661f2fec18d-366b7e03-1fa400-16a529f03c8237; Hm_lvt_6af5f9d42334a2c16b14d33d3c98334f=1556164314,1557465599,1557993939; Hm_lpvt_6af5f9d42334a2c16b14d33d3c98334f=1558083000; CNZZDATA3704146=cnzz_eid%3D1689364428-1556161905-%26ntime%3D1558081343';
+var cookiestr='UM_distinctid=16b027a5f64108-0b41bc07d1bbf6-6353160-1fa400-16b027a5f65b56; Hm_lvt_6af5f9d42334a2c16b14d33d3c98334f=1557465599,1557993939,1559114638; igifxmlusername=w7851435; igifxmluserid=628948; igifxmlgroupid=6; igifxmlrnd=0qQYqZJTb5twv7dTZUX4; igifxmluserdate=276; igifxmlauth=ea3683736563a37040280ca0c0787829; Hm_lpvt_6af5f9d42334a2c16b14d33d3c98334f=1559114768; CNZZDATA3704146=cnzz_eid%3D1366197830-1559109349-http%253A%252F%252Fwww.5730.net%252F%26ntime%3D1559109483';
 var arrCookie=cookiestr.split("; ");
 
 
