@@ -1,17 +1,1 @@
-var cookiestr='_ntes_nuid=426c02fd34e4c938734bfd1d12389fb1; _ntes_nnid=03a98b52e4aae5df34893deee871ee71,1525492597381; _ga=GA1.2.542801638.1525588117; __oc_uuid=b9127400-55c6-11e8-9bec-071a384ea4a5; vjuids=-9a9f99026.16357f2ebb9.0.4dc31bc29bba5; usertrack=ezq0plsL03Q2qcixBTy4Ag==; __gads=ID=a6d00cbe3b84e3fb:T=1528610638:S=ALNI_MbZ17knFUC-hEDB7VZrlITTcF9Bkg; __utma=187553192.542801638.1525588117.1538196897.1542025999.12; __utmz=187553192.1542025999.12.8.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; UM_distinctid=168786a63ef15f-06e2412fd55216-b781636-1fa400-168786a63f0262; EDUWEBDEVICE=ffcc3ae2bc8c4984b9112309b038353d; P_INFO=zhrmghgwlq@163.com|1549092778|1|study|11&14|bej&1546855986&mail163#bej&null#10#0#0|&0||zhrmghgwlq@163.com; vjlast=1526188928.1549676440.12; __utmz=129633230.1551438429.3.2.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; 4063919=4063919; videoResolutionType=3; vinfo_n_f_l_n3=4f78a544d4eff594.1.32.1526188927951.1551693708040.1553957824184; hb_MA-BFF5-63705950A31C_source=order.study.163.com; hasVolume=true; videoVolume=1; videoRate=1.25; NTES_STUDY_YUNXIN_ACCID=s-4063919; NTES_STUDY_YUNXIN_TOKEN=f6cf4322fbc1a51a730bea983cc7aad4; NTESSTUDYSI=bb5e1d9a6b5f49e7a721e573ad728f12; STUDY_INFO="zhrmghgwlq@163.com|-1|4063919|1557628515468"; STUDY_SESS="XZwsMnsSYvGuH/dCnnSArVKmQJU8ry7dJZ9eSby7F1fzZQhLkfhcqaRORHKgGRDwWnIe/5jzQ1sFxU4b+8vCgFzHv0gKJhOns5GJDLbuPCZv5vdrLwHURdEA569a50AY2A2ZUpsTl7KKbRdr7AxzQ903PmL2UVwi49J5Xeb6B2CAB324xXcBe7qOJTRrr0/A"; STUDY_PERSIST="u8J1xLzYMvDLs+yL2gd7a2nqC1JR5D5jUBRxNot2CGIQ0M1Q3q4WAgDiAvQdmRU6Tr7uWcApGHYJdOJwl9CkORPb6PUyhpHeutpNBwDAVkudzcRow1nV/5rXialScgQ8oIHMDlbAlyPhd2zhBctJxnT2wIZOJTTGz0I/Eb+k8f5j9aRRPD9ikO5E19bhF2dr7vAdSnIZNRj6Zr8RSSUcqKerrzfin1SwA7cBFulC07YtbbMCuQrcAiDbfyn/qhOQ8WQLi3xTJ45sq/acjsEWiA=="; utm=eyJjIjoiIiwiY3QiOiIiLCJpIjoiIiwibSI6IiIsInMiOiIiLCJ0IjoiIn0=|aHR0cHM6Ly9zdHVkeS4xNjMuY29tL3Bhc3Nwb3J0L2xvZ2luZ2F0ZS9jaGFuZ2VDb29raWUuaHRtP3R5cGU9c3R1ZHkmcmV0dXJuVXJsPWFIUjBjSE02THk5emRIVmtlUzR4TmpNdVkyOXRMMjl5WkdWeSZsb2dpbldheT0wJl90cmFjZV9jX3BfazJfPWI3MzQ2ZDY1NmExNzQ4NWRiMTdjMGJmMDk4Mjg2OTY0; NETEASE_WDA_UID=4063919#|#1417927188171; __utma=129633230.542801638.1525588117.1557558500.1557628562.81; __utmc=129633230; __utmb=129633230.16.10.1557628562';
-var arrCookie=cookiestr.split("; ");
-
-
-
-for(var i=0;i<arrCookie.length;i++){
-console.log(i+":"+arrCookie[i])
-       document.cookie=arrCookie[i];
- }
-
-chrome.extension.onMessage.addListener(
-	function(request, sender, sendResponse) {
-		alert("前端/后端/Popup收到");
-		sendResponse("popup返回值");
-	}
-);
-
+li_first_access_time=1560240069; li_seccode=0287%2FFRC%2FcIfsADuHGCm7PQWflkYU5ZJBiUrmTnYDtx8KnQ; web_auth=8082pXt4OggmlDmw5zZmeC1Gx39AnyZ9j6lqXh6wf%2BdEctf8q3%2BttQWZ; isbindingMobile=1; li_show_hongdongs=1; li_show_tips=1; li_ad_114=1; CONTAINERID=4da0ecfe71a70846749381ab11e1c31182d8b20b9c93bb748534d32d5d380d6f|XP9fz|XP9fy; li_cma_ad=1; li_play_video=xtHuIggjfZ0X637yeNaWtw%3D%3D; zg_did=%7B%22did%22%3A%20%2216b458e326111b-03142a05c1d244-6353160-1fa400-16b458e3262b8c%22%7D; speed_text=15357.14%20(K%2F%E7%A7%92); Hm_lvt_1e531798c221147143a6d33847c60bc5=1560145238,1560146004,1560146072,1560232627; Hm_lpvt_1e531798c221147143a6d33847c60bc5=1560240075; li_api_auth=47effNlGZ5ooNbNf2bO9%2B0vq8QlGd1YtT7XyuwvvHe%2BPftd6nqQRU%2FADaD04x7kQqSV6fyx%2F; li_last_login_time=1560240075; zg_8847ade537af4bcfa533dc8da4962a4d=%7B%22sid%22%3A%201560240075365%2C%22updated%22%3A%201560240099981%2C%22info%22%3A%201560240075367%2C%22superProperty%22%3A%20%22%7B%7D%22%2C%22platform%22%3A%20%22%7B%7D%22%2C%22utm%22%3A%20%22%7B%7D%22%2C%22referrerDomain%22%3A%20%22www.acc5.com%22%2C%22cuid%22%3A%20%222df687f1dbbe4f9ea674cef21417acf2%22%7D
